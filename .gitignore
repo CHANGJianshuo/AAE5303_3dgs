@@ -1,0 +1,21 @@
+# Extracted data (too large for git)
+AMtown02_extracted/
+AMtown02.bag
+AMtown02.bag:Zone.Identifier
+
+# Cloned reference repo
+AAE5303_opensplat_demo-/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output
+*.ply
+output/
