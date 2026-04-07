@@ -19,3 +19,11 @@ Thumbs.db
 # Output
 *.ply
 output/
+
+# Large data
+AMtown02_colmap/images/
+AMtown02_colmap/cloud_merged.ply
+UAVScenes_download/
+
+# Zone identifiers
+*.Zone.Identifier
