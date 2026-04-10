@@ -16,14 +16,23 @@ venv/
 .DS_Store
 Thumbs.db
 
-# Output
+# Output (PLY models too large for git)
 *.ply
-output/
+output/*.ply
+!output/README.md
+input.ply
 
 # Large data
 AMtown02_colmap/images/
 AMtown02_colmap/cloud_merged.ply
 UAVScenes_download/
+
+# TF events (too large)
+events.out.tfevents.*
+*.tfevents.*
+
+# Camera JSON (too large)
+cameras_*.json
 
 # Zone identifiers
 *.Zone.Identifier

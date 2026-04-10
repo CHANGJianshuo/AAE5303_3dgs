@@ -1,0 +1,17 @@
+{
+  "dataset": "AMtown02",
+  "method": "3D Gaussian Splatting",
+  "implementation": "gaussian-splatting (original, Python/CUDA)",
+  "gpu": "NVIDIA A100-PCIE-40GB",
+  "training_log": "train_10k.log",
+  "statistics": {
+    "Total Steps": "10,000",
+    "Initial Loss": "0.530346",
+    "Final Loss": "0.164383",
+    "Min Loss": "0.126124",
+    "Max Loss": "0.563030",
+    "Mean Loss": "0.260246",
+    "Std Dev": "0.109034",
+    "Loss Reduction": "69.0%"
+  }
+}

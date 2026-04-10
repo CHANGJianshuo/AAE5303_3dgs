@@ -1,0 +1,15 @@
+numpy>=1.24
+matplotlib>=3.7
+plyfile>=1.0
+tqdm>=4.65
+opencv-python>=4.8
+
+# For bag extraction (ROS data)
+# rosbags>=0.9.19
+# pyyaml>=6.0
+
+# For 3DGS training (install separately):
+# torch>=2.0 (with CUDA)
+# torchvision
+# diff-gaussian-rasterization (from gaussian-splatting submodule)
+# simple-knn (from gaussian-splatting submodule)
